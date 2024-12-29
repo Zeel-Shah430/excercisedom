@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <style>
+        .input-container {
+            margin-bottom: 15px;
+        }
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <div class="input-container">
+        <label for="celsiusInput">Celsius:</label>
+        <input type="text" id="celsiusInput" placeholder="Enter Celsius">
+        <div id="celsiusError" class="error"></div>
+    </div>
+    <div class="input-container">
+        <label for="fahrenheitInput">Fahrenheit:</label>
+        <input type="text" id="fahrenheitInput" placeholder="Enter Fahrenheit">
+        <div id="fahrenheitError" class="error"></div>
+    </div>
+
+    <script src="sc.js"></script>
+</body>
+</html>
