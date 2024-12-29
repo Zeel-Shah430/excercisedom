@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="zeel.css">
+	
+	<title>FORM</title>
+</head>
+
+<body class="bg">
+	<form onsubmit="validation(); return false;">
+	<table class="abc" height=400pxl width=400pxl align="center">
+	<tr>
+		<td class="b"><label>Full name</label></td>
+		<td><input type="text" required></td>
+	</tr>
+	<tr>
+		<td class="b"><label>Email</label></td>
+		<td><input type="email" required></td>
+	</tr>
+	<tr>
+		<td class="b"><label>Password</label></td>
+		<td><input type="password" required minlength="8" id="wth"></td>
+	</tr>
+	<tr>
+		<td class="b"><label>Confirm Password</label></td>
+		<td><input type="password" required minlength="8" id="wth2"></td>
+	</tr>
+	<tr>
+		<td class="b"><label>Gender</label></td>
+		<td><input type="radio" name="abc">Male
+		<input type="radio" name="abc">Female
+		<input type="radio" name="abc">Other
+		</td>
+	</tr>
+	<tr>
+		<td class="b"><label>Hobbies</label></td>
+		<td><input type="checkbox">Dancing
+			<input type="checkbox">Singing
+			<input type="checkbox">Skating
+		</td>
+	</tr>
+	<tr>
+		<td class="b"><label>Country</label></td>
+		<td>
+					<select>
+						<option>Select country</option>
+						<option>India</option>
+						<option>Japan</option>
+						<option>USA</option>
+					</select>
+
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align="center">
+			<button type="submit" class="r">Submit</button>
+		</td>
+	</tr>
+	</table>
+</form>
+<script type="text/javascript" src="z.js"></script>
+</body>
+
+</html>
